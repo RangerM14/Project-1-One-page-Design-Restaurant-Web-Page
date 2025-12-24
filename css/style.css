@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+}
+
+h2.w3-center{
+    font-family:"Molle", serif;
+}
+
+.abt-h1{
+    display:flex;
+    vertical-align:middle;
+    font-family:"Molle", serif;
+    text-align:center;
+    background-color:brown;
+    height:80px;
+    margin:20px, 0;
+}
+
+.w3-display-container img{
+    width:100%;
+    height:auto;
+}
+
+.wrapper-1{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+.wrapper-2{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+.wrapper-3{
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+}
+
+
+.about-div{
+    background-color:brown;
+    height:80px;
+    margin:20px, 0;
+}
+
+.about-div h1{
+    font-family:"Molle", serif;
+    text-align:center;
+    
+}
+
+.menu-div{
+    background-color:brown;
+    height:80px;
+    margin:20px, 0;
+}
+
+.menu-div h1{
+    font-family:"Molle", serif;
+    text-align:center;
+    
+}
+
+.contact-div{
+    background-color:brown;
+    height:80px;
+    margin:20px, 0;
+}
+
+.contact-div h1{
+    font-family:"Molle", serif;
+    text-align:center;
+}
+
+footer{
+    background-color:brown;
+    height:150px;
+    margin-top:60px;
+}
