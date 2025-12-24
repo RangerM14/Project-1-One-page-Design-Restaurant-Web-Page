@@ -2,18 +2,33 @@
     margin:0px;
 }
 
-h2.w3-center{
-    font-family:"Molle", serif;
+body{
+    background-color:aliceblue;
 }
 
-.abt-h1{
-    display:flex;
-    vertical-align:middle;
+h2.w3-center{
     font-family:"Molle", serif;
+    font-size:35px;
+}
+
+.w3-display-middle.w3-container{
+    padding-top:136.8px;
+    padding-bottom:170.8px;
+}
+
+.h1-header{
     text-align:center;
+    font-family:"Molle", serif;
+    line-height:32px;
+    color:beige;
     background-color:brown;
     height:80px;
-    margin:20px, 0;
+    padding:24px 0;
+    margin:0px;
+}
+
+h2{
+    color:brown;
 }
 
 .w3-display-container img{
@@ -24,19 +39,24 @@ h2.w3-center{
 .wrapper-1{
     margin-left:auto;
     margin-right:auto;
-    width:80%;
+    width:90%;
 }
 
 .wrapper-2{
     margin-left:auto;
     margin-right:auto;
-    width:80%;
+    width:90%;
 }
 
 .wrapper-3{
     margin-left:auto;
     margin-right:auto;
-    width:80%;
+    width:90%;
+}
+
+p{
+    font:400 16px Oswald, sans-serif;
+    line-height:20px
 }
 
 
@@ -77,6 +97,39 @@ h2.w3-center{
 
 footer{
     background-color:brown;
-    height:150px;
+    height:100px;
     margin-top:60px;
+}
+
+p.w3-center{
+    margin-top:10px;
+    line-height:20px
+}
+
+.contact.w3-container.w3-padding.w3-content{
+    display:flex;
+    justify-content:space-between;
+}
+
+#location h4{
+    font:500 24px Oswald, sans-serif;
+}
+
+#hours h4{
+    font:500 24px Oswald, sans-serif;
+}
+
+.contact.w3-center h4{
+    color:brown;
+    font:500 24px Oswald, sans-serif;
+}
+
+.socials.w3-container.w3-padding.w3-content{
+    margin-left:auto;
+    margin-right:auto;    
+}
+
+p.footer.w3-center{
+    color:beige;
+
 }

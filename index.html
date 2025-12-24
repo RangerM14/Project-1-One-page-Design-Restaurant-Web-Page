@@ -9,24 +9,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/562b9b77d0.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="w3-top">
+        <div class="w3-bar w3-wide w3-padding w3-card" style="background-color:brown">
+            <a href="#home" class="w3-bar-item w3-xlarge" style="text-decoration:none; font-family:Molle, serif; color:beige">Smokie's</a>
+            <div class="w3-right w3-hide-small">
+                <a href="#about-container" class="w3-bar-item w3-xlarge" style="text-decoration:none; font-family:Molle, serif; color:beige">About</a>
+                <a href="#menu-container" class="w3-bar-item w3-xlarge" style="text-decoration:none; font-family:Molle, serif; color:beige">Menu</a>
+                <a href="#contact-container" class="w3-bar-item w3-xlarge" style="text-decoration:none; font-family:Molle, serif; color:beige">Contact</a>
+            </div>
+        </div>
+    </div>
+
     <header>
         <div class="w3-display-container">
-            <img class="w3-grayscale-min" src="assets/hero_img_2.jpg" alt="Diner Hero Image">
+            <img class="w3-grayscale-min" src="assets/hero_img_2.jpg" alt="Diner Hero Image" id="home">
             <h1 class="w3-display-middle w3-container" style="font-family:'Molle',serif; font-size:100px; color:beige; text-align:center">Smokie's Diner</h1>
-            <div class="w3-display-topright w3-padding w3-xlarge">
-                <ul class="w3-bar">
-                    <li class="w3-bar-item"><a href="#menu-container" style="text-decoration:none; font-family:Molle, serif; color:beige">Menu</a>
-                    <li class="w3-bar-item"><a href="#contact-container" style="text-decoration:none; font-family:Molle, serif; color:beige">Contact</a></li>
-                    <li class="w3-bar-item"><a href="#about-container" style="text-decoration:none; font-family:Molle, serif; color:beige">About</a></li>
-                </ul>
-            </div>    
         </div>
     </header>
     <div class="about-div">
         <a name="about-container">
-            <h1 class="abt-h1" style="margin:0">About</h1>
+            <h1 class="h1-header">About</h1>
         </a>
     </div>
     <div class="wrapper-1">
@@ -36,36 +41,40 @@
     </div>
         <div class="menu-div">
             <a name="menu-container">
-                <h1>Menu</h1>
+                <h1 class="h1-header">Menu</h1>
             </a>
         </div>
     <div class="wrapper-2">        
             <section class="w3-container"> 
-                <h2 class="w3-center" style="margin-top:60px">Breakfast</h2>
+                <h2 class="w3-center" style="margin-top:60px;">Breakfast</h2>
             </section>
             <section class="w3-row" style="margin-bottom:100px">
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/bttrpan-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Buttermilk Pancakes</p>
+                        <p class="w3-center w3-padding"><b>Buttermilk Pancakes</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">3 buttermilk pancakes with maple syrup · <b>$11.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/cheeseom-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Cheese Omelette</p>
+                        <p class="w3-center w3-padding"><b>Cheese Omelette</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Cheese omelette served with tomatoes · <b>$7.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/chicnwaff-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Chicken and Waffles</p>
+                        <p class="w3-center w3-padding"><b>Chicken and Waffles</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Buttermilk waffles served with chicken tenders · <b>$15.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/hashbrn-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Hashbrowns</p>
+                        <p class="w3-center w3-padding"><b>Hashbrowns</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Thinly diced and seasoned Idaho Potato hashbrowns · <b>$6.99</b></p>
                     </div>
                 </div>
             </section>
@@ -78,27 +87,32 @@
             
             <section class="w3-row" style="margin-bottom:100px">
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/club-san-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Club Sandwich</p>
+                        <p class="w3-center w3-padding"><b>Club Sandwich</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Club Sandwich served with coleslaw and pickle slices · <b>$12.99</b></p>
+
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/matzo-ball-soup-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Matzo Ball Soup</p>
+                        <p class="w3-center w3-padding"><b>Matzo Ball Soup</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Hot Matzo ball soup served with steamed brown rice · <b>$9.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/phil-stak-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Philly Cheesesteak</p>
+                        <p class="w3-center w3-padding"><b>Philly Cheesesteak</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Philly Cheesesteak served with fries and slices pickles · <b>$12.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/tuna-melt-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Tuna Melt</p>
+                        <p class="w3-center w3-padding"><b>Tuna Melt</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Tuna melt served with a side of fries · <b>$11.99</b></p>
                     </div>
                 </div>
             </section>
@@ -111,43 +125,74 @@
             
             <section class="w3-row" style="margin-bottom:100px">
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/peach-cobbler-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Peach Cobbler</p>
+                        <p class="w3-center w3-padding"><b>Peach Cobbler</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Large slice of Peach Cobbler · <b>$6.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/cheesecake-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Chocolate Cheesecake</p>
+                        <p class="w3-center w3-padding"><b>Chocolate Cheesecake</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Slice of cheesecake topped with chocolate syrup· <b>$7.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/banana-pudding-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Banana Pudding</p>
+                        <p class="w3-center w3-padding"><b>Banana Pudding</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Banana pudding cup served with banana slices · <b>$5.99</b></p>
                     </div>
                 </div>
                 <div class="w3-quarter w3-container">
-                    <div class="w3-card-4">
+                    <div class="w3-card-4" style="margin-bottom:15px">
                         <p class="w3-center"><img src="assets/apple-pie-300dpi.jpg" style="width:100%; height:auto"></p>
-                        <p class="w3-center w3-padding">Apple Pie</p>
+                        <p class="w3-center w3-padding"><b>Apple Pie</b></p>
+                        <p class="w3-center w3-padding" style="margin-top:0">Large apple pie slice with sweet crumby crust · <b>$7.99</b></p>
                     </div>
                 </div>
             </section>
     </div>
     <div class="contact-div">
         <a name="contact-container">
-            <h1>Contact</h1>
+            <h1 class="h1-header">Contact</h1>
         </a>
     </div>
     <div class="wrapper-3">
-        <section class="w3-container w3-padding">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate assumenda quod aperiam autem, iste ducimus ipsum, ab sapiente repellat sit eum nostrum. Deserunt perferendis quis placeat repudiandae amet atque accusantium!</p>
+        <section class="contact w3-container w3-padding w3-content" style="margin-top:60px; margin-bottom:60px">
+            <div class=" contact w3-center">
+                <i class="fa-solid fa-phone fa-3x" style="color:brown"></i>
+                <h4 style="margin-bottom:0px">Let's Talk</h4>
+                <p>(123) 456-7890</p>
+            </div>
+             <div class="contact w3-center">
+                <i class="fa-solid fa-envelope fa-3x" style="color:brown"></i>
+                <h4 style="margin-bottom:0px">Make a reservation</h4>
+                <p>book.table@smokies.com</p>
+            </div>
+             <div class="contact w3-center">
+                <i class="fa-solid fa-clock fa-3x" style="color:brown"></i>
+                <h4 style="margin-bottom:0px">Hours</h4>
+                <p>Mon-Fri: 9AM-10PM<br>Sat-Sun 10AM-11PM</p>
+            </div>
+             <div class="contact w3-center">
+                <i class="fa-solid fa-location-dot fa-3x" style="color:brown"></i>
+                <h4 style="margin-bottom:0px">Location</h4>
+                <p>3643-3651 Broadway<br>NewYork, NY 10031</p>
+            </div>           
         </section>
     </div>
     <footer>
-        <p>waka waka</p>
+        <div class="footer w3-container w3-padding w3-content">
+            <p class="footer w3-center">©2025 Copywright Smokie's Diner. All rights reserved.</p>
+            <div class="socials w3-center w3-container w3-padding w3-content">
+                <i class="fa-brands fa-square-facebook fa-2x" style="color:beige"></i>
+                <i class="fa-brands fa-square-x-twitter fa-2x" style="color:beige"></i>
+                <i class="fa-brands fa-square-instagram fa-2x" style="color:beige"></i>
+            </div>
+        </div>
+        
     </footer>
 
 </body>
